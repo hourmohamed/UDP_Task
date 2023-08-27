@@ -12,3 +12,4 @@ while True:
     print (message)
     # Send a reply to the client.
     socket_server .sendto(f"server sends to the client message number : {message} ".encode('utf-8'),address)
+    
