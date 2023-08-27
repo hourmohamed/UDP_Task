@@ -13,4 +13,4 @@ while True:
     temp_counter+=1
     counter=str(counter)
     print (socket_client.recvfrom (1024)[0].decode ('utf-8'))
-
+    
